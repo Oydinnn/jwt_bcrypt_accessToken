@@ -5,3 +5,5 @@ CREATE TABLE users(
   email text not NULL UNIQUE,
   password VARCHAR(255) not NULL
 )
+
+SELECT * from users;

@@ -7,5 +7,7 @@ const router = express.Router()
 
 router
   .post("/api/register", validationMiddleware, usersControllers.register)
+  .post("/api/login", validationMiddleware, usersControllers.login)
+
 
 export default router;
